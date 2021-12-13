@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <div class="navBgBox">
+        <ul>
+            <li><i></i><a href="../index.html">返回主页面</a></ul>
+    </div>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>跟随鼠标移动</title>
+    <script src="js/games.js" type="text/javascript" language=JavaScript>
+    </script>
+</head>
+
+<body onLoad="move4();move()" onMouseMove="canMove()">
+    <center>
+        <font face="宋体" size=5 color=blue>抓虫子</font>
+    </center>
+    <!-- -->
+
+    <div id="ball" style="position:absolute;left:250px;top:118px;z-index:" 6 "> 
+		<img src="./images/2.gif ">
+	</div>  
+    
+    <div id="Insect1 " style="position:absolute; ">
+        <img src="./images/4.gif " onClick="move1() " width="50 " height="50 ">
+    </div>
+    <div id="Insect2 " style="position:absolute; ">
+        <img src="./images/4.gif " onClick="move2() " width="50 " height="50 ">
+    </div>
+    <div id="Insect3 " style="position:absolute; ">
+        <img src="./images/4.gif " onClick="move3() " width="50 " height="50 ">
+    </div>
+    
+    
+    
+    
+   <font color="#FF0000 " size="+1 ">注意：需使用IE浏览器方可显示鸟鼠标跟随</font>  
+    
+</body></html>
